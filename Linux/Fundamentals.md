@@ -68,3 +68,26 @@ Boot events are stored in `/var/log/messages`. `dmesg` command will dump event m
 | 4 | Normally undefined |
 | 5 | Multi-user with GUI running |
 | 6 | Reboot the system |
+
+### Linux Distributions
+Most common distributions are Debian, RPM, Gen2, and Pacman. Slackware are considered older distribution. Runlevel are highly correlated with the type of distribution. 
+
+### Define init Program
+- `sysvinit` uses `/etc/inittab` to define.
+- `upstart init` uses `/etc/inittab` or `/etc/init` to define. 
+- `systemd` uses `/etc/systemd/sytem` and `/usr/lib/systemd/system` to define. 
+
+### Runlevel commands
+How to tell Linux what the default runlevel or boot target:
+- Through `sysvinit` and `upstart`, use `/etc/inittab`. 
+    - Use `runlevel` to show current runlevel. 
+    - Use `telinit 6` to reboot computer.
+    - Use `shutdown -r` command to reboot.
+    - Use `shutdown -h +20 'shutdown in 20 minutes'` the `-h` option allow messages and shutdown timer to be included. 
+    - Use `wall < msg.txt` to alert people using `msg.txt`.
+    - Use `Ctrl`+`C` to cancel shutdown.
+    - Use `shutdown -c 'whoops'` to cancel shutdown.
+- Through `systemd` use `systemctl set-default name.target`. 
+    - Uses boot target instead of runlevel. 
+    - `systemctl isolate name.target` to change boot target. 
+    - Use `systemctl isolate poweroff.target` to shutdown. 
