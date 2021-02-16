@@ -38,7 +38,7 @@ Virtual filesystem `ls /proc` lists processes, hardware, and directory.
 ### Hardware Abstraction Layer Daemon
 A user space program the provides other user space programs info about hardware and it is a messaging API. HALD uses Desktop Bus, a message passing bus which allow user space programs to interact indirectly. 
 
-### Boot Process
+## Boot Process
 Boot loader determine what the next steps should be taken. **LILO** and **GRUB** are most common boot loader. 
 
 **GRUB** configuration file can be found in `/boot/grub` and it can be displayed as either `grub.conf` or `grub.cfg`. Do not change these files, to edit **GRUB** files access `/etc/default/grub` and edit. Use `run update-grub` to update the **GRUB** configuration files. The reason for this methodology is because **GRUB** takes the configuration provided and pulls together all dependencies and create a **GRUB** configuration. **GRUB** is installed using `grub-install/dev/had`. 
@@ -56,4 +56,15 @@ Kernel initializes the environment and runs `/sbin/init`. `/sbin/init` is a defa
 
 Boot events are stored in `/var/log/messages`. `dmesg` command will dump event messages. 
 
-### Runlevels
+## Runlevel
+**Runlevel** determines which set of services should be active. 
+
+| Runlevel | Description |
+| --- | --- |
+| 0 | Shut down the system |
+| 1, s, S | Single-user mode used in system maintenance |
+| 2 | Multi-user with GUI running |
+| 3 | Multi-user in console mode |
+| 4 | Normally undefined |
+| 5 | Multi-user with GUI running |
+| 6 | Reboot the system |
