@@ -92,6 +92,45 @@ How to tell Linux what the default runlevel or boot target:
     - `systemctl isolate name.target` to change boot target. 
     - Use `systemctl isolate poweroff.target` to shutdown. 
 
+## Hard Disk Layout
+There are two types of partitions, Master Boot Record (MBR) and GUID Partition Table (GPT). **GPT** creates a protective **MBR** and protects utilities from creating a real **MBR** and damaging the partition table. **GPT** has a *header* and a *partition table*. The *header* is the metadata that describes the partition table. The *partition table* defines the partition. 
+
+### Mount Points
+A mount point is a directory which is associated with a partition. Mounting a filesystem makes it accessible to the OS and connects it to the directory tree. Devices are located in the `/dev` directory. 
+
+### Swap Device
+Or referred to as a swap device and should be located in a separate partition. It is used for both file system paging and swapping. 
+- Paging is a method of storing data that cannot fit into RAM on a secondary storage device which is typically the hard drive.
+- Paging allow data to be stored into smaller, more manageable chunks called pages which are the same size as the corresponding frames on the secondary storage device. 
+- Swapping deals in exchanging large collections of data from RAM with space on the secondary storage device in order to pull other large chunks of data out there and load them into RAM. Because read and write operations are happening concurrently, and there is little to no free space available, the operations can be slow. 
+
+### Partitions Type
+Make sure that `/boot`, `/swap`, and `/home` partitions are seperate from other paritions.
+Logical volume manager (LVM) is a type of software that lives above disks and partitions. **LVM** allow OS to dynamically manipulate entire logical columes as if they were partitions. It supports operations such as:
+- Resize
+- Add ore remove physical volumes
+- Create volume snapshots
+- Create RAID volumes
+- Split volume groups
+- Merge volume groups
+
+| partition | description |
+| --- | --- |
+| swap | should be seperate, used for both swapping and paging |
+| root | default location in the file system |
+
+Parition that exists under the `/` partition and to be addressed under `root`.
+| partition | description |
+| --- | --- |
+| `/home` | User files |
+| `/boot` | Files necessary for initial boot activities |
+| `/usr` | Many core Linux programs and data files |
+| `/opt` | Many programs and data files for 3rd party programs |
+| `/var` | Many temporary files Linux uses to operate |
+| `/tmp` | Temporary user files |
+| `/media` | Not a separate partition, but a common mount point for paritions or removable media | 
+
+
 ## Manage Shared Libraries
 A collection of common program fragments that are stored in a place that any program can access. Shared libraries are stored under `/lib` directory and usually ends with `.so`. Naming convention is `.so.version`. 
 - `IPv4` means internet protocol version four.
