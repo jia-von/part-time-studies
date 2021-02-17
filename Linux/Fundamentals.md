@@ -105,15 +105,18 @@ Overriding shared library can be done by editing path of Enivronment variable `$
 Packages are made up of a collection of files put into an archive and ends with `.deb`. 
 A software source is a location where software resides, it is assumed these sources are stored in `/etc/apt/sources.list`.
 - `dpkg` to install configure, or remove a package.
-  - `-i` or `--install` to install
-  - `--configure` reconfigures an installed package or `dpkg-reconfigure`.
-  - `-r` or `--remove` to remove a package and leaving config files.
-  - `-P` or `--purge`to remove a package and config files.
-  - `-p` or `--print-avail` to show information about an installed package.
-  - `-i` or `--info` to show information about a `deb` package file
-  - `l pattern` or `--list pattern` to lists installed packages
-  - `-S pattern` or `-search pattern`to find the packages that own files
-  - `C` or `-audit` to find partially installed packages and provides guidance.
+| option | description | example |
+| --- | --- | --- |
+| `-i`, `--install` | Install | `dpkg -i packageFileName.deb` |
+| `--configure`, `dpkg-reconfigure` | reconfigures an installed package | n/a |
+| `-r`, `--remove` | remove a package and leaving config files | `dpkg -r packageName` |
+| `-P`, `--purge` |  remove a package and config files | `dpkg -P packageName` |
+| `-p`, `--print-avail` | show information about an installed package | n/a |
+| `-i`, `--info` | to show information about a `deb` package file | n/a |
+| `-l pattern`, `--list pattern` | lists installed packages | n/a |
+| `-S pattern`, `-search pattern`| find the packages that own files | n/a |
+| `C`, `-audit` | find partially installed packages and provides guidance | n/a |
+
 - `apt-get` advanced package tool interface for Debian
 | option | description |
 | --- | --- |
@@ -124,4 +127,12 @@ A software source is a location where software resides, it is assumed these sour
 | `remove` | removes a package, leaving config files |
 | `--purge remove` | removes a package and config |
 - `apt-cache` a tool to query package contents
+| option | description |
+| --- | --- |
+| `search` *word* | lists packages with *word* in the description |
+| `show` *package* | shows information about a package |
+| `showpkg` *package* | shows details of versions available and dependencies |
+| `depends` *package* | lists packages on which a package depends |
+
+
 
