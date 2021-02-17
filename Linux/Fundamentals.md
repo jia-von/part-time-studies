@@ -112,29 +112,69 @@ A software source is a location where software resides, it is assumed these sour
 | `--configure`, `dpkg-reconfigure` | reconfigures an installed package | n/a |
 | `-r`, `--remove` | remove a package and leaving config files | `dpkg -r packageName` |
 | `-P`, `--purge` |  remove a package and config files | `dpkg -P packageName` |
-| `-p`, `--print-avail` | show information about an installed package | n/a |
-| `-i`, `--info` | to show information about a `deb` package file | n/a |
+| `-p`, `--print-avail` | show information about an installed package | `dpkg -p packageName` |
+| `-l`, `--info` | to show information about a `deb` package file | `dpkg -l pckageFileName` or `--info` |
 | `-l pattern`, `--list pattern` | lists installed packages | n/a |
-| `-S pattern`, `-search pattern`| find the packages that own files | n/a |
+| `-S pattern`, `-search pattern`| find the packages that own files | `dpkg -S fileName` |
 | `C`, `-audit` | find partially installed packages and provides guidance | n/a |
 
 `apt-get` advanced package tool interface for Debian
-| option | description |
-| --- | --- |
-| `update` | updates list of packages |
-| `upgrade` | upgrades all installed packages but do not add or remove pkgs |
-| `dist-upgrade` | upgrades all installed packages but add or remove pkgs when necessary |
-| `install` | installs a package |
-| `remove` | removes a package, leaving config files |
-| `--purge remove` | removes a package and config |
+| option | description | examples |
+| --- | --- | --- |
+| `update` | updates list of packages | `sudo apt-get update` |
+| `upgrade` | upgrades all installed packages but do not add or remove pkgs | `sudo apt-get upgrade` |
+| `dist-upgrade` | upgrades all installed packages but add or remove pkgs when necessary | `sudo apt-get dist-upgrade` |
+| `install` | installs a package | n/a |
+| `remove` | removes a package, leaving config files | n/a |
+| `--purge remove` | removes a package and config | n/a |
 
 `apt-cache` a tool to query package contents
+| option | description | examples |
+| --- | --- | --- |
+| `search` *word* | lists packages with *word* in the description | n/a |
+| `show` *package* | shows information about a package | `apt-cache show packageName` |
+| `showpkg` *package* | shows details of versions available and dependencies | n/a |
+| `depends` *package* | lists packages on which a package depends | n/a |
+
+## RPM and YUM package Management
+**RPM** uses the `.rpm` extension like Red Hat distributions. Naming convention goes `packageName-versionNumber-buildNumber-arch.rpm`. The commands are listed below:
+
+`rpm` to install, configure, or remove a package and the configuration file is stored at `/user/lib/rpm/rpmrc`
 | option | description |
 | --- | --- |
-| `search` *word* | lists packages with *word* in the description |
-| `show` *package* | shows information about a package |
-| `showpkg` *package* | shows details of versions available and dependencies |
-| `depends` *package* | lists packages on which a package depends |
+| `-i` | installs new packages |
+| `-U` | installs or upgrades the existing package |
+| `-F`, `--freshen` | upgrades but does not install if the package does not already exist |
+| `-e` | removes a package |
+| `-q` | information about an installed package |
+| `-V`, `--verify` | checks to see if package's file are unchanged since installation |
+| `-b` | builds a binary package from source |
+| `--rebuild` | builds binary package from the source RPM file |
+| `--rebuilddb` | fixes errors in the RPM database |
+| `-a`, `-all` | queries and verifies all packages |
+| `--test` | checks for dependencies and problems before installing a package |
+| `-f file`, `-file file` | queries and verifies packages that own files |
+| `-p packageFileName` | shows information about an rpm package file |
+| `-i` | shows package information about an installed package |
+| `-l`, `-list` | lists files in a package |
+| `-R package` or `requires package` | lists packages and files on which a package depends |
 
+`Rpm2cpio` convert `.rpm` to `.cpio` archive to extract files
 
+`yum` front-end for `.rpm`. Config file is located at `/etc/yum.conf` and he repository info is located at `/etc/yum.repos.d`. 
+| option | description |
+| --- | --- |
+| `install` | installs a package |
+| `update`, `upgrade` | updates a package and install dependencies; upgrade handles obsoletes |
+| `check-update` | checkes to see if updates are available |
+| `remove`, `erase` | removes a package and depended-on packages |
+| `list` | shows information about an installed pacakge |
+| `provides`, `whatprovides` | shows packages that provide a specific program |
+| `search` *keyword* | finds the packages based on a *keyword* |
+| `info` | shows infor about a package |
+| `deplist` | lists dependencies of the specified package |
+| `clean` | cleans the YUM cache directory |
+
+`yumex` and `kyum` GUI front-ends for `yum`
+`yumdownloader` downloads but does not install packages
 
