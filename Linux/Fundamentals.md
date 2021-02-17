@@ -41,7 +41,7 @@ A user space program the provides other user space programs info about hardware 
 ## Boot Process
 Boot loader determine what the next steps should be taken. **LILO** and **GRUB** are most common boot loader. 
 
-**GRUB** configuration file can be found in `/boot/grub` and it can be displayed as either `grub.conf` or `grub.cfg`. Do not change these files, to edit **GRUB** files access `/etc/default/grub` and edit. Use `run update-grub` to update the **GRUB** configuration files. The reason for this methodology is because **GRUB** takes the configuration provided and pulls together all dependencies and create a **GRUB** configuration. **GRUB** is installed using `grub-install/dev/had`. 
+**GRUB** configuration file can be found in `/boot/grub` and it can be displayed as either `grub.conf` or `grub.cfg`. Do not change these files, to edit **GRUB** files access `/etc/default/grubfile` and edit. Use `run update-grub` to update the **GRUB** configuration files. The reason for this methodology is because **GRUB** takes the configuration provided and pulls together all dependencies and create a **GRUB** configuration. **GRUB** is installed using `grub-install/dev/had`. 
 
 Hold `Shift` key to during boot to show **GRUB** menu, in this editor it will show images available for boot. `initrd` show initial RAM disk. 
 
@@ -91,3 +91,37 @@ How to tell Linux what the default runlevel or boot target:
     - Uses boot target instead of runlevel. 
     - `systemctl isolate name.target` to change boot target. 
     - Use `systemctl isolate poweroff.target` to shutdown. 
+
+## Manage Shared Libraries
+A collection of common program fragments that are stored in a place that any program can access. Shared libraries are stored under `/lib` directory and usually ends with `.so`. Naming convention is `.so.version`. 
+- `IPv4` means internet protocol version four.
+
+### Override Shared Library
+Overriding shared library can be done by editing path of Enivronment variable `$ export LD_LIBRARY_PATH=/usr/local/mylib`. 
+- `ldd` command show shared libraries dependencies
+- If library path has changed, it requires to reload the libary cache. `ldconfig` command to update the path. `/etc/ld.so.conf` is where the shared library configuration is stored.
+
+## Debian Package Management
+Packages are made up of a collection of files put into an archive and ends with `.deb`. 
+A software source is a location where software resides, it is assumed these sources are stored in `/etc/apt/sources.list`.
+- `dpkg` to install configure, or remove a package.
+  - `-i` or `--install` to install
+  - `--configure` reconfigures an installed package or `dpkg-reconfigure`.
+  - `-r` or `--remove` to remove a package and leaving config files.
+  - `-P` or `--purge`to remove a package and config files.
+  - `-p` or `--print-avail` to show information about an installed package.
+  - `-i` or `--info` to show information about a `deb` package file
+  - `l pattern` or `--list pattern` to lists installed packages
+  - `-S pattern` or `-search pattern`to find the packages that own files
+  - `C` or `-audit` to find partially installed packages and provides guidance.
+- `apt-get` advanced package tool interface for Debian
+| option | description |
+| --- | --- |
+| `update` | updates list of packages |
+| `upgrade` | upgrades all installed packages but do not add or remove pkgs |
+| `dist-upgrade` | upgrades all installed packages but add or remove pkgs when necessary |
+| `install` | installs a package |
+| `remove` | removes a package, leaving config files |
+| `--purge remove` | removes a package and config |
+- `apt-cache` a tool to query package contents
+
