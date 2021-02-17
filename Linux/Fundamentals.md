@@ -104,7 +104,8 @@ Overriding shared library can be done by editing path of Enivronment variable `$
 ## Debian Package Management
 Packages are made up of a collection of files put into an archive and ends with `.deb`. 
 A software source is a location where software resides, it is assumed these sources are stored in `/etc/apt/sources.list`.
-- `dpkg` to install configure, or remove a package.
+
+`dpkg` to install configure, or remove a package.
 | option | description | example |
 | --- | --- | --- |
 | `-i`, `--install` | Install | `dpkg -i packageFileName.deb` |
@@ -117,7 +118,7 @@ A software source is a location where software resides, it is assumed these sour
 | `-S pattern`, `-search pattern`| find the packages that own files | n/a |
 | `C`, `-audit` | find partially installed packages and provides guidance | n/a |
 
-- `apt-get` advanced package tool interface for Debian
+`apt-get` advanced package tool interface for Debian
 | option | description |
 | --- | --- |
 | `update` | updates list of packages |
@@ -126,7 +127,8 @@ A software source is a location where software resides, it is assumed these sour
 | `install` | installs a package |
 | `remove` | removes a package, leaving config files |
 | `--purge remove` | removes a package and config |
-- `apt-cache` a tool to query package contents
+
+`apt-cache` a tool to query package contents
 | option | description |
 | --- | --- |
 | `search` *word* | lists packages with *word* in the description |
