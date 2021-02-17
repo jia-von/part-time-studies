@@ -14,7 +14,7 @@ Below are a list of topics I have covered for my part time studies, the selectio
 ## Soft Skills Knowledge
 
 # Public Use
-You are welcome to for/clone this respository for your own studies but I suggest conducting personal due dilligence because I am a student as well. Kindly credit where applicable when if you decide to use my notes as part of your presentation/publication. 
+You are welcome to for/clone this respository for your own studies but I suggest conducting personal due dilligence because I am a student as well. Kindly credit where applicable if you decide to use my notes as part of your presentation/publication. 
 
 # Errors
 If you discover any errors such as spelling and grammar mistakes. You are welcome to use the github issue to highlight areas of concern.
