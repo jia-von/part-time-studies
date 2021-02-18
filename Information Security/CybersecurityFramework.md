@@ -20,9 +20,9 @@
 | Threat Analysis | Assess the skills and activities of criminals or forein intelligence | Support law enforcement or investigations |
 
 ### Investigate
-| Specialty | Description | Example |
+| Specialty | Description |
 | Cyber Investigation | Use tactics, techniques, and procedures to investigate | interview, interrogation, surveillance, intelligence gathering |
-| Digital Forensics | Collect and analyze, computer-related evidence to prevent criminal activties | n/a |
+| Digital Forensics | Collect and analyze, computer-related evidence to prevent criminal activties |
 
 ### Operate and Maintain
 
