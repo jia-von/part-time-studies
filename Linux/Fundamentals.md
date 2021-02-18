@@ -2,7 +2,7 @@
 In 1991, Linus Torvalds rewrote the UNIX software and made it available to everyone by writing the Core, the Kernel. 
 
 ## BIOS
-BIOS (basic input/output system): Software that lices on the motherboard and exists as firmware
+BIOS (basic input/output system): Software that lives on the motherboard and exists as firmware
 - Allows recognizing, enabling, and disabling different pieces of hardware.
 - Takes an action to begin the startup process.
 - BIOS is used to view and configure the hardware operation. 
