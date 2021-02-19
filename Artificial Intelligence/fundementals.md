@@ -38,3 +38,7 @@ Article from [Understanding Data Bias](https://towardsdatascience.com/survey-d4f
     - The omitted variable must be correlated with the dependent (target) variable.
     - The omitted variable must be correlated with one or more other explanatory (or predictor) variables.
 - Societal bias occurs in content produced by humans.
+- [Adaptive Context Environments (ACE) Lab](https://www2.ocadu.ca/research/acelab/home)
+- Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy 
+
+# Machine Learning
