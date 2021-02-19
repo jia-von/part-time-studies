@@ -59,3 +59,16 @@ There is a two type of machine learning, **supervised** machine learning and **u
 
 ### Figure below from en.proft.me:
 ![machine learning type](https://miro.medium.com/max/3000/1*ZCeOEBhvEVLmwCh7vr2RVA.png)
+
+## Introduction to Machine Learning Review
+A review based on *[A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)*
+- categorizing data points is a **classification** task.
+- dimensions in a data set are called **features**, **predictors**, or **variables**.
+- identifying boundaries in data using math is statistical learning.
+- creating a model is also known as **training** a model
+- A decision tree uses if-then statements to define patterns in data. These statements are called **forks**, and they split the data into two **branches** based on some value. That value between the branches is called a **split point**. At the **best split**, the results of each branch should be as homogeneous as possible.
+- **Recursion** is to add another split point, the algorithm repeats the process above on the subsets of data and recursion appears frequently in training models
+- Additional forks will add new information that can increase a tree's **prediction accuracy**.
+- Finally these branches of the tree are called **leaf nodes**.
+- To test the tree's performance on new data, apply it to data points that it has never seen before. This unused data is called **test data**.
+- **Overfitting** happens when some boundaries are based on on distinctions that don't make a difference.
