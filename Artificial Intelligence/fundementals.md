@@ -72,3 +72,13 @@ A review based on *[A visual introduction to machine learning](http://www.r2d3.u
 - Finally these branches of the tree are called **leaf nodes**.
 - To test the tree's performance on new data, apply it to data points that it has never seen before. This unused data is called **test data**.
 - **Overfitting** happens when some boundaries are based on on distinctions that don't make a difference.
+
+### Model Tuning and Bias-Variance Tradeoff
+- Simplest decision tree is called *stump* and it is made of a single rule. 
+- A model with too much bias systematically ignores relevant details and is wrong in *consistent* ways.
+- To decrease the error due to bias, you can add additional splits to the tree.
+- Overly-complex tree suffers from errors due to **variance**. High-variance models make mistakes by overfitting to the idiosyncrasies of the training data. They tend to be wrong in *inconsistent* ways.
+
+| Less Complex Model | More Complex Model | Overall model | Ideal Model |
+| --- | --- | --- | --- |
+| ignores relevant information, and error due to bias is high. As the model becomes more complex, error due to bias decreases | when a model is less complex, error due to variance is low. Error due to variance increases as complexity increases | error is a function of error due to bias plus error due to variance | minimizes error from each |
