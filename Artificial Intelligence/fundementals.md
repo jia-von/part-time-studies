@@ -79,6 +79,6 @@ A review based on *[A visual introduction to machine learning](http://www.r2d3.u
 - To decrease the error due to bias, you can add additional splits to the tree.
 - Overly-complex tree suffers from errors due to **variance**. High-variance models make mistakes by overfitting to the idiosyncrasies of the training data. They tend to be wrong in *inconsistent* ways.
 
-| Less Complex Model | More Complex Model | Overall model | Ideal Model |
+| Less Complex Model | More Complex Model | Overall model error | Ideal Model |
 | --- | --- | --- | --- |
-| ignores relevant information, and error due to bias is high. As the model becomes more complex, error due to bias decreases | when a model is less complex, error due to variance is low. Error due to variance increases as complexity increases | error is a function of error due to bias plus error due to variance | minimizes error from each |
+| ignores relevant information, and error due to bias is high. As the model becomes more complex, error due to bias decreases | when a model is less complex, error due to variance is low. Error due to variance increases as complexity increases |  is a function of error due to bias plus error due to variance | minimizes error from each |
