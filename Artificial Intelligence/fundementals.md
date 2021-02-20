@@ -82,3 +82,7 @@ A review based on *[A visual introduction to machine learning](http://www.r2d3.u
 | Less Complex Model | More Complex Model | Overall model error | Ideal Model |
 | --- | --- | --- | --- |
 | ignores relevant information, and error due to bias is high. As the model becomes more complex, error due to bias decreases | when a model is less complex, error due to variance is low. Error due to variance increases as complexity increases |  is a function of error due to bias plus error due to variance | minimizes error from each |
+
+## Deep Learning
+Deep learning is based on neural networks and it implement algorithms to simulate how the human brain works. Neural network is based on a single *neuron* called *perceptron*. Example of a deep learning algorithm is called recurrent neural network (RNN) and it is primarily invovled in natural language processing (NLP).
+
