@@ -83,6 +83,29 @@ A review based on *[A visual introduction to machine learning](http://www.r2d3.u
 | --- | --- | --- | --- |
 | ignores relevant information, and error due to bias is high. As the model becomes more complex, error due to bias decreases | when a model is less complex, error due to variance is low. Error due to variance increases as complexity increases |  is a function of error due to bias plus error due to variance | minimizes error from each |
 
-## Deep Learning
+# Deep Learning
 Deep learning is based on neural networks and it implement algorithms to simulate how the human brain works. Neural network is based on a single *neuron* called *perceptron*. Example of a deep learning algorithm is called recurrent neural network (RNN) and it is primarily invovled in natural language processing (NLP).
 
+Notion of intent is important in the research of AI. 
+
+## Resources
+- [Hugging Face](https://teachablemachine.withgoogle.com/)
+- [Teachable Machine](https://teachablemachine.withgoogle.com/)
+- R.U.R. (Rossum's Universal Robots) by Karel Capek
+
+# Use Cases and Application
+- Credit card fraud detection / prediction in the FINTECH industry
+- Product recommendation engines in eCommerce as part of the intelligent retail industry
+- Autonomous robotics in the advanced manufacturing industry
+
+[Confusion matrix](https://blogs.oracle.com/datascience/confusion-matrix) is used to assess the performance of a classification model. 
+
+## Deep Learning Technical Skills
+- Python
+- R
+- Tensorflow
+- Various Programming Skills
+- Use machine learning models
+
+# Careers in AI
+Augmentation is when AI and human work together to improve outcomes. Or AI assisted decision making. 
