@@ -43,6 +43,16 @@
 
 **Key Soft Skils**: Problem solving, critical thinking, analytical thinking, decision-making, willingness to learn, and effective technical communication.
 
+## Oversee and Govern
+| Specialty | Description |
+| --- | --- |
+| Cybersecurity Management | oversee cybersecurity program |
+| Executive Cyber Leadership | Supervise, manage, and lead workers to perform cyber-related work | 
+| Lega Advice and Advocacy | Provide legally sound advice and recommendations to leadership |
 
-### Operate and Maintain
-
+## Collect, Operate, and Maintainance 
+| Specialty | Description |
+| --- | --- |
+| Collection Operations | Execute collection using appropriate strategies and priorities |
+| Cyber Operational Planning | Peform in-depth joint targeting and planning |
+| Cyber Operations | Perform activities to gather evidence on criminal/foreign intelligence entities |
