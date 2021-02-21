@@ -10,7 +10,9 @@
 - Protect and Defend
 - Securely Provision
 
-### Analyze
+[MITRE ATT&CK](attack.mitre.org) is a resource that provides information about adversaries, tactics and techniques, software, and mitigration to deploy.
+
+## Analyze and Investigate
 | Specialty | Description | Example | 
 | --- | --- | --- |
 | All-Source Analysis | Analyzing threat information from diverse sources, disciplines, and agencies | Synthesizing and placing intelligence information in context, drawing insights on possible implications |
@@ -21,8 +23,26 @@
 
 ### Investigate
 | Specialty | Description |
+| --- | --- |
 | Cyber Investigation | Use tactics, techniques, and procedures to investigate | interview, interrogation, surveillance, intelligence gathering |
 | Digital Forensics | Collect and analyze, computer-related evidence to prevent criminal activties |
+
+### Job Roles
+| Role | Description |
+| --- | --- |
+| Threat Intelligence Analyst | Develops cyber indicators to maintain awareness of the status of the highly dynamic environment |
+| Exploitation Analyst | Identify access and collection gaps that can be satisfied through cyber collection and/or activities |
+| All Source Analyst | Analyzes data/information from one or multiple sources to conduct preparation and respond |
+| Mission Assessment Specialist | Develops assessment plans and measures performance and effectiveness | 
+| Target Developer | Performs target system analysis |
+| Target Analyst | Conduts advance analysis of collection and open-source data to continously profile the target |
+| Language Analyst | Applies language and culture expertise with target/threat and technical knowledge to process and analyze | 
+| Cybercrime Investigator | identifies, collects, examines, and preserves evidence using analytical techniques |
+| Cybercrime Forensics Analyst | conducts deep-dive investigations on computer-based crimes | 
+| Cyber Defense Forensics Analyst | analyzes digital evidence and investigates computer security |
+
+**Key Soft Skils**: Problem solving, critical thinking, analytical thinking, decision-making, willingness to learn, and effective technical communication.
+
 
 ### Operate and Maintain
 
