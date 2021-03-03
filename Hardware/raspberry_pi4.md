@@ -10,7 +10,7 @@ This document will show the setup process for Raspberry Pi 4. Components include
 ## Setup
 | Step 1 | Step 2 | Step 3 | Step 4 | 
 | --- | --- | --- | --- |
-| ![step1](photo\image5.jpeg) | ![step2](photo\image2.jpeg) | ![step3](photo\image0.jpeg) |  ![step4](photo\image6.jpeg) |
+| ![step1](Hardware\photo\image5.jpeg) | ![step2](Hardware\photo\image2.jpeg) | ![step3](Hardware\photo\image0.jpeg) |  ![step4](Hardware\photo\image6.jpeg) |
 | Component available before the setup. | The Pi 4 board with heat sink attached to the Broadcom Cpu, LPDDR4 SDRAM, and USB 3.0 Controller. | Cooling fan with red and black wires to the GPIO header pins. | Completed setup with Pi 4 enclosed within the case. |
 
 ## NOOBS Installation
