@@ -18,9 +18,9 @@
 In an intent-based networking system (IBN), all the network devices will be automatically configured to fulfil this requirement across the network, no matter where the employee is connected. VLAN, subnet, ACL and all other details will be automatically defined and configured following best practices. The intent has to be defined once in a central management console, and then, the network will continuously assure it, even if there are changes in the network.
 
 ## Python
-- The range() function generates a list of numbers usually used to iterate with FOR loops. 
-  - range(stop) - This is the number of integers (whole numbers) to generate, starting from zero.
-  - range([start], stop, [step]) – This is the starting number of the sequence, the ending number in the sequence, and the difference between each number in the sequence.
+- The `range()` function generates a list of numbers usually used to iterate with `FOR` loops. 
+  - `range(stop)` - This is the number of integers (whole numbers) to generate, starting from zero.
+  - `range([start], stop, [step])` – This is the starting number of the sequence, the ending number in the sequence, and the difference between each number in the sequence.
 - A tuple is a sequence of unchangeable Python objects. Tuples are sequences, separated by parentheses.
 - Lists are a sequence of changeable Python objects. Lists can be created by putting different comma-separated values between square brackets. 
 - Sets are unordered collections of unique elements. Common uses include membership testing, removing duplicates from a sequence, and computing standard math operations on sets such as intersection, union, difference, and symmetric difference.
@@ -33,3 +33,8 @@ Prototyping is the process of creating a rudimentary working model of a product 
 
 ### Course
 - The [MIT OpenCourseWare (OCW)](https://ocw.mit.edu/courses/intro-programming/) is a web-based publication of almost all MIT course content. Open and available to the world, OCW is a great place to get familiar with computer programming for free. 
+
+## Big Data
+- Volume: A lot of data.
+- Velocity: Data coming in quickly.
+- Variety: Different types of data.
