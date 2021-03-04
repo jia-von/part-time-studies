@@ -11,7 +11,7 @@ This document will show the setup process for Raspberry Pi 4. Components include
 | Step 1 | Step 2 | Step 3 | Step 4 | 
 | --- | --- | --- | --- |
 | ![step1](/Hardware/photo/image5.jpeg) | ![step2](/Hardware/photo/image2.jpeg) | ![step3](/Hardware/photo/image0.jpeg) |  ![step4](/Hardware/photo/image6.jpeg) |
-| Component available before the setup. | The Pi 4 board with heat sink attached to the Broadcom Cpu, LPDDR4 SDRAM, and USB 3.0 Controller. | Cooling fan with red and black wires to the GPIO header pins. | Completed setup with Pi 4 enclosed within the case. |
+| Component available before the setup. | The Pi 4 board with heat sink attached to the Broadcom CPU, LPDDR4 SDRAM, and USB 3.0 Controller. | Cooling fan with red and black wires to the GPIO header pins. | Completed setup with Pi 4 enclosed within the case. |
 
 ## NOOBS Installation
 Raspberry Pi was the default NOOBS pre-loaded into the micro SD Card. I used [Raspberry Pi Imager](https://github.com/raspberrypi/documentation/blob/master/installation/sdxc_formatting.md) to format the SD card to the correct FAT file system. Method using [SD Formatter](https://www.sdcard.org/downloads/formatter/) tool did not show any success for this setup. 
