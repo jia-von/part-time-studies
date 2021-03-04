@@ -1,7 +1,10 @@
 # Workshop 1
 Note: 
-- Angelo Del Duca is the shadow *leader* for NACO. TODO: Potentially ivnestigate his background. 
+- Angelo Del Duca is the shadow *leader* for NACO. 
+  - TODO: Potentially ivnestigate his background. 
+  - *not a tax expert*
 - Frank Auddino is not good at Term Sheets
+  - *not a tax expert*
 
 Links:
 - [Investor Readiness](https://investorreadiness.ca/)
@@ -155,6 +158,8 @@ Note:
 | --- | --- | --- | --- | --- |
 | **Pro's** | Defers valuation discussion and may enable a *rolling close* | Provides a route from an already priced round to a future priced round; it's the bridge to extend the runway and validate a price increase | It is a relatively simple deal structure leading to a quick close | Investors are considered lenders and not shareholders and this may provide security rights to protect | Provides some flexibility | 
 | **Con's** | Often add pressure for investor returns | There are no shareholder rights or ways to influence |  |  |  |
+
+##
 
 | Canadian SAFE | The **Canadian Simple Agreement for Future Equity (SAFE)** is modelled after the Y Combinator SAFE. In this template a cap, a discount, and a maturity date were added to make it more appropriate for the Canadian market. |  |  |  |
 | --- | --- | --- | --- | --- |
