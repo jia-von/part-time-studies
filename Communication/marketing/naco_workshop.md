@@ -1,5 +1,7 @@
 # Workshop 1
-Note: Angelo Del Duca is the shadow *leader* for NACO. TODO: Potentially ivnestigate his background. 
+Note: 
+- Angelo Del Duca is the shadow *leader* for NACO. TODO: Potentially ivnestigate his background. 
+- Frank Auddino is not good at Term Sheets
 
 Links:
 - [Investor Readiness](https://investorreadiness.ca/)
@@ -133,15 +135,21 @@ Note:
 - *Making sure the entrepenuer is extremely dedicated in growing the company.*
 - *Give a thought about term sheet tools.*
 
+##
+
 | Common Share | A **Common Share** deal aligns founders and funders with the same class of shares, and fully negotiates all rights and terms in the Shareholders' Agreement. | It may be used at any stage of deal before a Series A, as long as valuation can be agreed upon. |  |  |
 | --- | --- | --- | --- | --- |
 | **Pro's** | Creates alignment between the founder and investor | Relatively easy and commonly accepted form of term sheet | Avoids different share classes and onerous calculations | Relatively quick and simple to negotiate and execute |  |
 | **Con's** | Requires a sophisticated investor who can negotiate valuation and additional terms | Due to the required sophistication, it is not a good fit for the Family & Friend investment stage | May not include all the protection an investor wants | it may lack in valuation too early | May not work for US investors | 
 
+##
+
 | Preferred Shares | The **Preferred Share** term sheet, also called *Preferred Light*, is commonly used for a later and larger seed round. |  |  |
 | --- | --- | --- | --- |
 | **Pro's** | Protect investor rights | Sets up the corporate structure in such a way that investor returns are paramount to other (Common) shareholders | Protects the investor against later and more powerful (institutional) investors | Investors from the US recognize and like Preferred Share term sheets |
 | **Con's** | There is an element of unfairness to the founders | The term sheet can be complex | May have an impact on the ease of landing future rounds |  |
+
+##
 
 | Convertible Loan | **Convertible Loan** is commonly used as part of the first financing of a company when valuation can't be agreed on, or as a bridge ahead of a larger Seed or Series A round |  |  |  |
 | --- | --- | --- | --- | --- |
