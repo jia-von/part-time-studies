@@ -1,6 +1,6 @@
 # Linux Management
 
-## The Shell Environment
+## Customize and Use the Shell Environment
 Customize and use environment variable is important. Environment variables are represented capital letters. `ENVVAR=value;export ENVVAR`. 
 
 **Note**:
@@ -18,7 +18,7 @@ Commands
 | `bash` | To open a new variable. By default using `bash` will open a shell within a shell |
 | `unset MYVAR2` | To unset the environment variable of `MYVAR2` |
 
-## Standard Environment Variables
+### Standard Environment Variables
 
 | Variable name | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ To investigate the current environment define.
 | `env | grep SESSION` | Searches and show environment variables that include `SESSION` | 
 | `|` | This is a pipe command |
 
-## Aliases
+### Aliases
 
 | Command | Description |
 | --- | --- |
@@ -50,11 +50,11 @@ To investigate the current environment define.
 | `alias cya='exit'` | The `cya` becomes an `exit` command |
 | `ls -a` | Regular `ls` show regular file, the `-a` shows the hidden files |
 
-# Configuration File Locations
+### Configuration File Locations
 
 In order to use/define set environment variable esepcially in every login, user, and the whole computer globally, set the environment variable within `/etc/profile` or `/etc/profile.d/*`. Alternatively, it can be in `/etc/bashrc` or `/etc/bash.bashrc`. Different distribution uses different naming conventions, therefore these differences as described. 
 
-## For single user configurations
+### For single user configurations
 Under the user `home` directory, set the user specific environment variable. These can be set in:
 
 | Directory | Description |
@@ -66,7 +66,7 @@ Under the user `home` directory, set the user specific environment variable. The
 | `~/.bash_logout` | Script that is executed whenever user logout |
 | `.` | `.` in front of the file means it is a hidden file |
 
-## Source Command
+### Source Command
 - When setting environment variable, be careful about the scope of environment variable. 
 
 - Whenever a shell script runs, Linux will open a new shell and execute the shell script. When the shell script ends, the shell closes and everything will go back as it was before. 
@@ -77,6 +77,14 @@ Under the user `home` directory, set the user specific environment variable. The
 | `sh demoenv.sh` | `sh` command runs the `demoenv.sh` shell script |
 | `source demoenv.sh` | `source` command will ensure that the script is run within the current shell |
 | `. demoenv.sh` | `.` command is identical to `source` command |
+| `exec` | `exec` command will open the script, run the script, replace the current shell, and finally terminate/close the shell after finish executing |
 
+### Skeleton Directory for New Users
+`/etc/skel` is the directory which stores *template* for creating new user files. Whenever a new user is created, `/etc/skel` will be copied to create new user directories.
 
+### Set the PATH
+
+| Command | Description |
+| --- | --- |
+| `echo $PATH` | Shows the `PATH` of the current directory |
 
