@@ -41,6 +41,13 @@ Note:
 | Professional Business Practices | n/a |
 | Coachability | n/a |
 
+## Angel Groups - Canadian Landscapes
+- 45 + angel groups in Canada. Angel Groups do not compete on deals. **They syndicate**.
+- Groups borrow expertise from each other.
+- Opportunities that are not a good fit for one group can be referred to another group that might be a better fit. 
 
+### Typical Angel Network Process
 
-
+| Application | Populate the Data Room | The Pitch |
+| --- | --- | --- |
+| Application via email, website, angel, ecosystem partner. Review-screening to select eligible companies | Company materials are uploaded to an accessible online database | 3 companies deliver 12-15 minute pitch at an investor meetings. Deeper dive with angels who are interested. |
