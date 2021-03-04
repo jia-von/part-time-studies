@@ -108,5 +108,33 @@ Note:
 
 ## The Investment Instrument
 
+| The Terms | Examples |
+| --- | --- |
+| We will invest X $ into your company in exchange for X % of the company. | Common shares were used in 38% of investments |
+| Angel investors use a variety of investment instruments. | Convertible debentures were used in 29% of investments |
+| n/a | Preffered shares were used in 19% of investments. |
+| n/a | SAFE Notes were used in 12% of investments. |
+| n/a | Debt instruments are uncommon and were used in just 2% of investments |
 
+**Term Sheet Quick Info**
 
+| Term Sheet Quick Info | The term sheet should not have any surprises -- if a group is interested they will probably have discussed valuation with you during the process.  |  |  |
+| --- | --- | --- | --- |
+| What is the equity position that an angel will take while ensuring the entrepenuer highly focused on growth? | How much is the investor providing and how much are you giving in return. | They set out the terms that will be used in a more formal closing document. | These are often shorter documents. |
+| What are the size of the units (i.e. how many investors on cap table - you need to keep an eye on this number) | What percentage the investor is taking | What is the form of the investment |  Angels typically don't want to take a large percentage (usually 15-25%) |
+|  Angel investors want **you** to run the business -- they are not operators | The term sheet and any subsequent details often moves along in parallel with due diligence. | Once the investment is ready to move forward there will be a subscription agreement and some form of loan documentation. | Each investor has to own their investment in their own name since most angel groups do not pool their funds -- the group is made up of a collection on individuals. |
+
+Note:
+- *Making sure the entrepenuer is extremely dedicated in growing the company.*
+- *Give a thought about term sheet tools.*
+
+| **Common Share** | A **Common Share** deal aligns founders and funders with the same class of shares, and fully negotiates all rights and terms in the Shareholders' Agreement. | It may be used at any stage of deal before a Series A, as long as valuation can be agreed upon. |  |  |
+| --- | --- | --- | --- | --- |
+| **Pro's** | Creates alignment between the founder and investor | Relatively easy and commonly accepted form of term sheet | Avoids different share classes and onerous calculations | Relatively quick and simple to negotiate and execute |  |
+| **Con's** | Requires a sophisticated investor who can negotiate valuation and additional terms | Due to the required sophistication, it is not a good fit for the Family & Friend investment stage | May not include all the protection an investor wants | it may lack in valuation too early | May not work for US investors | 
+| **Preferred Shares** | The **Preferred Share** term sheet, also called *Preferred Light*, is commonly used for a later and larger seed round. |  |  |  |
+| **Pro's** | Protect investor rights | Sets up the corporate structure in such a way that investor returns are paramount to other (Common) shareholders | Protects the investor against later and more powerful (institutional) investors | Investors from the US recognize and like Preferred Share term sheets |  |
+| **Con's** | There is an element of unfairness to the founders | The term sheet can be complex | May have an impact on the ease of landing future rounds |  |  | 
+| **Convertible Loan** | **Convertible Loan** is commonly used as part of the first financing of a company when valuation can't be agreed on, or as a bridge ahead of a larger Seed or Series A round |  |  |  |
+| **Pro's** | Defers valuation discussion and may enable a *rolling close* | Provides a route from an already priced round to a future priced round; it's the bridge to extend the runway and validate a price increase | It is a relatively simple deal structure leading to a quick close | Investors are considered lenders and not shareholders and this may provide security rights to protect | Provides some flexibility | 
+| **Con's** | Often add pressure for investor returns | There are no shareholder rights or ways to influence |  |  |  |
