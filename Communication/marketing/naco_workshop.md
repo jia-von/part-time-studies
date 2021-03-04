@@ -3,6 +3,11 @@ Note: Angelo Del Duca is the shadow *leader* for NACO. TODO: Potentially ivnesti
 
 Links:
 - [Investor Readiness](https://investorreadiness.ca/)
+- Angel Activity report
+- Term sheet templates
+- Event information
+- Podcase recordings
+- Additional resources
 
 ## Angel Investors defined by [NACO](https://www.nacocanada.com/cpages/home)
 - Typically successful entrepreneurs or retired corporate executives.
@@ -128,13 +133,22 @@ Note:
 - *Making sure the entrepenuer is extremely dedicated in growing the company.*
 - *Give a thought about term sheet tools.*
 
-| **Common Share** | A **Common Share** deal aligns founders and funders with the same class of shares, and fully negotiates all rights and terms in the Shareholders' Agreement. | It may be used at any stage of deal before a Series A, as long as valuation can be agreed upon. |  |  |
+| Common Share | A **Common Share** deal aligns founders and funders with the same class of shares, and fully negotiates all rights and terms in the Shareholders' Agreement. | It may be used at any stage of deal before a Series A, as long as valuation can be agreed upon. |  |  |
 | --- | --- | --- | --- | --- |
 | **Pro's** | Creates alignment between the founder and investor | Relatively easy and commonly accepted form of term sheet | Avoids different share classes and onerous calculations | Relatively quick and simple to negotiate and execute |  |
 | **Con's** | Requires a sophisticated investor who can negotiate valuation and additional terms | Due to the required sophistication, it is not a good fit for the Family & Friend investment stage | May not include all the protection an investor wants | it may lack in valuation too early | May not work for US investors | 
-| **Preferred Shares** | The **Preferred Share** term sheet, also called *Preferred Light*, is commonly used for a later and larger seed round. |  |  |  |
-| **Pro's** | Protect investor rights | Sets up the corporate structure in such a way that investor returns are paramount to other (Common) shareholders | Protects the investor against later and more powerful (institutional) investors | Investors from the US recognize and like Preferred Share term sheets |  |
-| **Con's** | There is an element of unfairness to the founders | The term sheet can be complex | May have an impact on the ease of landing future rounds |  |  | 
-| **Convertible Loan** | **Convertible Loan** is commonly used as part of the first financing of a company when valuation can't be agreed on, or as a bridge ahead of a larger Seed or Series A round |  |  |  |
+
+| Preferred Shares | The **Preferred Share** term sheet, also called *Preferred Light*, is commonly used for a later and larger seed round. |  |  |
+| --- | --- | --- | --- |
+| **Pro's** | Protect investor rights | Sets up the corporate structure in such a way that investor returns are paramount to other (Common) shareholders | Protects the investor against later and more powerful (institutional) investors | Investors from the US recognize and like Preferred Share term sheets |
+| **Con's** | There is an element of unfairness to the founders | The term sheet can be complex | May have an impact on the ease of landing future rounds |  |
+
+| Convertible Loan | **Convertible Loan** is commonly used as part of the first financing of a company when valuation can't be agreed on, or as a bridge ahead of a larger Seed or Series A round |  |  |  |
+| --- | --- | --- | --- | --- |
 | **Pro's** | Defers valuation discussion and may enable a *rolling close* | Provides a route from an already priced round to a future priced round; it's the bridge to extend the runway and validate a price increase | It is a relatively simple deal structure leading to a quick close | Investors are considered lenders and not shareholders and this may provide security rights to protect | Provides some flexibility | 
 | **Con's** | Often add pressure for investor returns | There are no shareholder rights or ways to influence |  |  |  |
+
+| Canadian SAFE | The **Canadian Simple Agreement for Future Equity (SAFE)** is modelled after the Y Combinator SAFE. In this template a cap, a discount, and a maturity date were added to make it more appropriate for the Canadian market. |  |  |  |
+| --- | --- | --- | --- | --- |
+| **Pro's** | It is asimple and gast agreement, a figurative *papered handshake* | It favours the company much like a convertible loan can | It works best in a hot/active market with promising startups | It can assist with obtaining a tax credit in certain provinces | 
+| **Con's** | It is an open-ended deal and the investor can be legt *hanging* | Can be used inappropriately, if the founder is not properly knowledgeable on the structure | Some formats may not work in Canada |  |
