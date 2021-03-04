@@ -88,3 +88,4 @@ Under the user `home` directory, set the user specific environment variable. The
 | --- | --- |
 | `echo $PATH` | Shows the `PATH` of the current directory |
 
+## Customize or Write Simple Scripts
