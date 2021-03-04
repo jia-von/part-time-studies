@@ -1,9 +1,9 @@
 # Workshop 1
 Note: 
-- Angelo Del Duca is the shadow *leader* for NACO. 
-  - TODO: Potentially ivnestigate his background. 
+- Angelo Del Duca 
   - *not a tax expert*
-- Frank Auddino is not good at Term Sheets
+- Frank Auddino 
+  - *is not good at Term Sheets*
   - *not a tax expert*
 
 Links:
