@@ -1,4 +1,8 @@
 # Workshop 1
+Note: Angelo Del Duca is the shadow *leader* for NACO. TODO: Potentially ivnestigate his background. 
+
+Links:
+- [Investor Readiness](https://investorreadiness.ca/)
 
 ## Angel Investors defined by [NACO](https://www.nacocanada.com/cpages/home)
 - Typically successful entrepreneurs or retired corporate executives.
@@ -40,6 +44,7 @@ Note:
 | Global Prospects | *How can we exploit not just the local economy but globally* |
 | Professional Business Practices | n/a |
 | Coachability | n/a |
+| Supporting Database | Pre-screening done in NACO will include research supporting database for evaluation |
 
 ## Angel Groups - Canadian Landscapes
 - 45 + angel groups in Canada. Angel Groups do not compete on deals. **They syndicate**.
@@ -51,3 +56,57 @@ Note:
 | Application | Populate the Data Room | The Pitch |
 | --- | --- | --- |
 | Application via email, website, angel, ecosystem partner. Review-screening to select eligible companies | Company materials are uploaded to an accessible online database | 3 companies deliver 12-15 minute pitch at an investor meetings. Deeper dive with angels who are interested. |
+
+Typical Journey:
+We Source Deal Flow -->  Screening --> Coaching --> Selection --> Investment Meeting --> Lead Investors --> Due Diligence --> Syndication --> Close --> After the $ Post Investment Follow Up
+
+Note: 
+- Maple leaf pre-screen, Thursday office hours? - investigate later. 
+- York angels (80 members) has virtual screening session? - investigate later. - Usually end up with 3 to 4 companies. 
+- Keynote: *Show potential to grow*
+- Average of 650 applications are year, but only 30 made into the screening.
+- *Talk to customer and explaining value. Customer feedback is good way to evaluate*
+- *Average journey is 4-12 weeks*
+
+### Funding-Investment Journey
+
+| Pre-Seed Stage | Seed and Seed Extension | Populate the Data Room |
+| --- | --- | --- |
+| Friends and Family | Angel Investors | CDN VCs |
+| Incubators, pitch competitions and entrepreneurship programs | Angel Syndicates | US VCs |
+| n/a | Government Funders | Strategic investors |
+| n/a | Seed Stage VC's | n/a |
+
+Note:
+- Using family and friends network as an example/story to show how other people trust in *you*. 
+- Historical/government funding as proof of concepts and example. 
+- *Some skin in the game* - probs keyword. 
+
+### Valuation
+- No substantive financial history to help set valuation.
+- Take a top-down approach when estimating your company's value -- from market size to forecasted revenue.
+- Providing an exagerrated valuation of your company can be a deal killer.
+- Valuation of an early, pre-revenue company is more art and negotation than accounting and science. 
+- In addition to the assets of the company, valuation will be influenced by the risk assessment of a future exit. 
+  - At what price?
+  - What time frame?
+  - What size will the company be?
+  - What exit multiples?
+
+Note:
+- *Always get customers first. Valuation is secondary*.
+- Book *Practical guide to angel investing* by NACO Academy Resources. 
+- Always show *hockey stick*. 
+- Keyword: *Milestones*.
+- Counter valuation provided by investor. **Bring on the receipts, mic-drop.**
+- Investor like to have *x times the value in return*. 
+
+| Key Factors | Key Factors | Key Factors | Key Factors |
+| --- | --- | --- | --- |
+| Team | Term Sheets | Market Size | Intellectual Property |
+| Technology | Forecasted Revenue |  Demonstrated customer traction and validation | Repeat/Serial Founders |
+
+## The Investment Instrument
+
+
+
