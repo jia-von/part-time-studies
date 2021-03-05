@@ -164,4 +164,4 @@ Note:
 | Canadian SAFE | The **Canadian Simple Agreement for Future Equity (SAFE)** is modelled after the Y Combinator SAFE. In this template a cap, a discount, and a maturity date were added to make it more appropriate for the Canadian market. |  |  |  |
 | --- | --- | --- | --- | --- |
 | **Pro's** | It is asimple and gast agreement, a figurative *papered handshake* | It favours the company much like a convertible loan can | It works best in a hot/active market with promising startups | It can assist with obtaining a tax credit in certain provinces | 
-| **Con's** | It is an open-ended deal and the investor can be legt *hanging* | Can be used inappropriately, if the founder is not properly knowledgeable on the structure | Some formats may not work in Canada |  |
+| **Con's** | It is an open-ended deal and the investor can be left *hanging* | Can be used inappropriately, if the founder is not properly knowledgeable on the structure | Some formats may not work in Canada |  |
