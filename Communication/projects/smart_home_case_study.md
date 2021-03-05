@@ -58,3 +58,7 @@ Early home automation systems do not include internet connectivity, which is cur
 | Mobile | Smartphone is a very good platform for this | Communicate with gateway to pull the collected data; Communication through WLAN or Bluetooth; access home automation system from anywhere inside the house |
 | Cloud | Data collected from smart home system can be consumed locally (through gateway) as well as stored in the cloud for analytics |  |
 |  |  There are many cloud solutions and visualization tools available |  |
+
+# [Edmonton home guide](https://www.edmonton.ca/city_government/documents/GreenHomeGuide-web.pdf)
+
+- Average 2015 home size is 2,013 SQ FT
