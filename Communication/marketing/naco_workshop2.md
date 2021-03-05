@@ -24,3 +24,24 @@
 Note:
 - Investors look for credibility in teams because teams are important in executing business/marketing strategy.
 - *Team is always number 1 in mind.*
+- *Investor doesn't want to hear: raise money to do more research, to do something, to hire more people*
+- *It's okay to get input from investor*
+- *Few can illustrate where a company wants to go*
+- *Capture clear vision moving forward, how the market is trending*
+
+### Company Pitch Evaluation Checklist
+
+- [ ] What is the Opportunity?
+- [ ] How big is the opportunity?
+- [ ] What is the solution ?
+- [ ] How unique is this solution?
+- [ ] What is the business model?
+- [ ] How do I get my investment back? (How much? When?)
+- [ ] Has this team got what it takes?
+
+## Due Diligence
+
+| Due Diligence | Investor | Entreprenuer | 
+| --- | --- | --- |
+| A process that investors take understand a business - its assets, liabilities, and potential | They are thinking about investing in your company and want to know everything about the opportunity before they write that cheque | For you, being organized throughout the process will demonstrate that you have deep knowledge of the company and its executive capabilities. It is in your best interests to fully cooperate and provide as much information as you can to help them decide to invest in **YOU** |
+
