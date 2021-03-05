@@ -54,7 +54,7 @@ Early home automation systems do not include internet connectivity, which is cur
 | --- | --- | --- |
 | Local | Ways to visualize data locally | dedicated LCD screen touch screen to allow choice selection; arm-disarm security areas; check current energy consumption; groceries recommendation based on promotion from nearby grocery store |
 |  |  The processor needs hardware acceleration to  support an LCD; not possible for small sensor nodes |  |
-|  |  may be integrated with a gateway |  |
+|  | may be integrated with a gateway |  |
 | Mobile | Smartphone is a very good platform for this | Communicate with gateway to pull the collected data; Communication through WLAN or Bluetooth; access home automation system from anywhere inside the house |
 | Cloud | Data collected from smart home system can be consumed locally (through gateway) as well as stored in the cloud for analytics |  |
 |  |  There are many cloud solutions and visualization tools available |  |
