@@ -4,6 +4,10 @@ This is part of a group project I have been working with other students. This do
 ## Background
 Early home automation systems do not include internet connectivity, which is currently a common element in modern home automation systems. Modern home automation rely heavily on Internet of Things (IoT)
 
+- Smart Home System requires a lot of sensors to collect data this can be done through sensor nodes integrated with low-end microcontrollers.
+- Gateway aggregates data, display data locally, allow local control on smart home functionality, push data to cloud for post processing, or even perform some simple decisions locally.
+- Cloud computing is important and perform intelligent  analytics to improve the quality of life.
+
 | Feature | Description | Example |
 | --- | --- | --- |
 | Security | Alarm system, surveillance, and reporting. | **Door Lock**: key-less lock, biometric sensing; **Surveillance Camera**: monitoring any person walking near or entering the house; **Vibration Sensor**: Detect vibration generated when someone attempts to remove the grill; **Magnetic Door Lock**: Control opening of the door | 
@@ -41,10 +45,16 @@ Early home automation systems do not include internet connectivity, which is cur
 
 | Type | Description |
 | --- | --- |
-| Process Data | Data processing and aggregation can be performed in gateway to reduce the communication 
-cost; allow control to Smart Home System; Set the threshold temperature to turn on the fan; Automatically turn on/off the lighting (to simulate human activity and prevent burglary) 
-when user is away; Push data to the cloud; Display data locally |
-| Make Decision | Simple decisions can also be made accordingly (turn on/off devices/appliances 
-automatically) in gateway |
+| Process Data | Data processing and aggregation can be performed in gateway to reduce the communication cost; allow control to Smart Home System; Set the threshold temperature to turn on the fan; Automatically turn on/off the lighting (to simulate human activity and prevent burglary) when user is away; Push data to the cloud; Display data locally |
+| Make Decision | Simple decisions can also be made accordingly (turn on/off devices/appliances automatically) in gateway |
 
 ## Data Visualization
+
+| Type | Description | Example |
+| --- | --- | --- |
+| Local | Ways to visualize data locally | dedicated LCD screen touch screen to allow choice selection; arm-disarm security areas; check current energy consumption; groceries recommendation based on promotion from nearby grocery store |
+|  |  The processor needs hardware acceleration to  support an LCD; not possible for small sensor nodes |  |
+|  |  may be integrated with a gateway |  |
+| Mobile | Smartphone is a very good platform for this | Communicate with gateway to pull the collected data; Communication through WLAN or Bluetooth; access home automation system from anywhere inside the house |
+| Cloud | Data collected from smart home system can be consumed locally (through gateway) as well as stored in the cloud for analytics |  |
+|  |  There are many cloud solutions and visualization tools available |  |
