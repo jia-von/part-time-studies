@@ -41,7 +41,18 @@ Note:
 
 ## Due Diligence
 
-| Due Diligence | Investor | Entreprenuer | 
+| Due Diligence | Investor | Entrepreneur | 
 | --- | --- | --- |
 | A process that investors take understand a business - its assets, liabilities, and potential | They are thinking about investing in your company and want to know everything about the opportunity before they write that cheque | For you, being organized throughout the process will demonstrate that you have deep knowledge of the company and its executive capabilities. It is in your best interests to fully cooperate and provide as much information as you can to help them decide to invest in **YOU** |
+
+### Objectives
+
+| For the Company | For the Investors | What Angels Seek From You | How Angels Help |
+| --- | --- | --- | --- | 
+| Verify the company situation | Analyze and often help set valuation of the company | open and honest communication | They're willing to share their time and their network |
+| Educate the entrepreneur, and identify *coachability* of the team | Bring sufficient information for investors to make a decision | Angels want to share in the fun and excitement of the company's success. | On average angel investors create 4.4 jobs per deal |
+| Set exepecations for investors | Identify key assumption and opinions by both sides to mitigate risk | They want a return on investment, 1x - 2x is okay, but 10x - 20x is better | Angel-backed companies are more likely to be approved for debt financing, receive future rounds of funding, and/or realize higher success than bootstrapping |
+| Find a balance between *the numbers* and *the stories* |  |  |  |
+| Understand the issues, warts, and skeletons-in-the closet |  |  |  |
+
 
