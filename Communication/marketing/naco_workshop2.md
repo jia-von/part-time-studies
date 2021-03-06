@@ -60,16 +60,24 @@ Note:
 
 ### Key Elements
 
-| Financials | Market | Sales | Competition | Management | Intellectual Property | Products | Operations | Critical Risks and Problems |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Founders Investment | Size. Definition and trends | Sales and Distribution Plan | Comparative analysis, including key features and benefits | Experience of all senior management, including previous startups - get resumes and references | Patents, trademarks, and trade secrets | Description of products/services/operations. Timing and process to full commercialization. | Visit the site if one exists | If in 2 years the company has closed what were the reasons for that? |
-| Key Assumptions and Variables | Identify the type of market | Sales Cycle and Length | Barriers to entry for competitors - the *moat* | Previous experience working together | if no patent, do they have freedom to operate? | Unique attributes and opportunities | inventory | Cant his company scale? |
-| Funding needs for this round and subsequent rounds along with planned used of funds | Customers - Permission to interview | Costs associated with plan | Competitive advantages and market differentiators | Employment Contracts and Non-Competes | Licensing arrangements | Platform of products | Practices (car leases, office equipment) | Identify risks and propose solutions/work-arounds |
-| Summary project financials (1 and 3 to 5 years) | Addressable Market | Pipeline - sales funnel; *weighted sales funnel* | What are customers doing now? | Key Hires | Does the team have experience with patents? | Product roadmap. Stage the product is at: Minimum Viable Product (MVP) | HR; Skill sets and compensation strategies | Export Potential |
-| Business milestones for next six month and next two years | Need/Want for Products/Services |  |  | Will ask about your ambitions and Key Hires | Defensibility? | Certification and regulatory requirements if any | Too low or spending too much? | What keeps you up at night and worries you? |
-| **NOTE**: Everyone shows a *hockey stick* - the assumptions behind the numbers are what is truly important | Necessary patnership status - current agreement |  |  | Are you trustworthy and self aware? | Make sure all IP has been assigned to the company. Or understand why not. | Manufacturing and infrastructure - current and required | What plans do you have to mitigate risks? |
+| Financials | Market | Sales | Competition | Management | Intellectual Property | Products | Operations | Critical Risks and Problems | Governance |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Founders Investment | Size. Definition and trends | Sales and Distribution Plan | Comparative analysis, including key features and benefits | Experience of all senior management, including previous startups - get resumes and references | Patents, trademarks, and trade secrets | Description of products/services/operations. Timing and process to full commercialization. | Visit the site if one exists | If in 2 years the company has closed what were the reasons for that? | Corporate governance is the system of rules, practices, and processes by which your company is directed and controlled. |
+| Key Assumptions and Variables | Identify the type of market | Sales Cycle and Length | Barriers to entry for competitors - the *moat* | Previous experience working together | if no patent, do they have freedom to operate? | Unique attributes and opportunities | inventory | Cant his company scale? | Good corporate governance helps companies build trust with investors and the community |
+| Funding needs for this round and subsequent rounds along with planned used of funds | Customers - Permission to interview | Costs associated with plan | Competitive advantages and market differentiators | Employment Contracts and Non-Competes | Licensing arrangements | Platform of products | Practices (car leases, office equipment) | Identify risks and propose solutions/work-arounds | Who are their advisors? Who is on the Board? |
+| Summary project financials (1 and 3 to 5 years) | Addressable Market | Pipeline - sales funnel; *weighted sales funnel* | What are customers doing now? | Key Hires | Does the team have experience with patents? | Product roadmap. Stage the product is at: Minimum Viable Product (MVP) | HR; Skill sets and compensation strategies | Export Potential | How formalized is the company to make critical and strategic decisions? |
+| Business milestones for next six month and next two years | Need/Want for Products/Services |  |  | Will ask about your ambitions and Key Hires | Defensibility? | Certification and regulatory requirements if any | Too low or spending too much? | What keeps you up at night and worries you? | Company incorporated? Where?; Does the company own other companies? Is it a subsidiary? |
+| **NOTE**: Everyone shows a *hockey stick* - the assumptions behind the numbers are what is truly important | Necessary patnership status - current agreement |  |  | Are you trustworthy and self aware? | Make sure all IP has been assigned to the company. Or understand why not. |  | Manufacturing and infrastructure - current and required | What plans do you have to mitigate risks? | # of shares issued and authorized, is there a shareholder agreement? Who owns the company? (Get a fully-diluted capitalization table, i.e. including options, warrants, promises, and debts) |
 
 Note:
 - *Must be in a good financial position to defend intellectual property*
 - *Patent for company, insteady of a person, cause person can leave*
 - *They like to visit websites to see how they manage inventory, as such...*
+
+### Red Flags Angels Look For
+
+- Founder does not understand company's weakness or strengths
+- Founder is not willing to step aside for the good of the company
+- Immaturity in dealing with criticisms or questions (Defensive, Emotional, Resetting)
+- Team does not have a solid sense of their numbers
+- Lack of Transparency
