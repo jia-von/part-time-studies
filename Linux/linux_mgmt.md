@@ -133,6 +133,29 @@ Under the user `home` directory, set the user specific environment variable. The
 | `-s` | Test to see if file exists and size > 0 |  |
 | `String 1 = String 2` | Comparing String 1 and String 2 |  |
 
+If there is many expressions use `Case` statement instead. 
 
-- If there is many expressions use `Case` statement instead. 
-|
+```
+Case string in
+    pattern1 ) command ;;
+    pattern2 ) command ;;
+
+esac
+```
+where the `string` matches against `pattern1` or `pattern2`.
+- use quotation marks to make two words into one arguement, eg. `"hot dog"`.
+#
+#### Reptition Structures
+A structure or a group of commands that are executed more than once. There are two kind of repition structures:
+- `For` loop
+   - `for var in list do`
+   - A `ls` is any space-separated string of values
+```
+for l in $(ls); do
+    echo file: $i
+done
+```
+
+- `While` loop
+   - `while [condition] do`
+
