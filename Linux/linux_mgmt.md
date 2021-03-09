@@ -150,12 +150,68 @@ A structure or a group of commands that are executed more than once. There are t
 - `For` loop
    - `for var in list do`
    - A `ls` is any space-separated string of values
+   - If a example file `demo2.sh~`, when the `~` is at the end of the file name, represents previous version of the file. `gedit` save older version of the file with `~`.
 ```
-for l in $(ls); do
+for i in $(ls); do
     echo file: $i
 done
 ```
+or
+
+```
+for i in seq '1 10' ;
+do
+    echo $i
+done
+```
+- The `seq` takes two arguements; beginning and ending
 
 - `While` loop
    - `while [condition] do`
+   - `-lt` means less than, `-le` means less than or equal
 
+```
+i=0
+
+while [ $i -lt 10 ]
+do
+    echo "The counter is $i"
+    i=$(( $i + 1))
+done
+```
+#
+#### Functions
+- Track and return values
+- A section of code that can be called by a specific name
+  - To be used if statements that are executed over and over again
+  - Makes scripts look cleaner
+
+```
+functionName(){
+    commands
+}
+```
+Example of a function
+
+```
+quit(){
+    exit
+}
+disp(){
+    echo $i
+}
+
+disp Hello
+disp World
+quit
+echo "Never gets here!"
+```
+Notes:
+- Keep shell scripts as simple as possible
+  - more complex scripts have more places to break down.
+- Use command substitution
+  - Example `for i in ls*.sh`
+- Test for return values for success or failure or other information provided by a command
+  - Most commands return negative numbers to indicate errors; negative value means some sort of error, positve value report some sort of status
+
+**Callee** and **Caller** script.
