@@ -89,3 +89,37 @@ Under the user `home` directory, set the user specific environment variable. The
 | `echo $PATH` | Shows the `PATH` of the current directory |
 
 ## Customize or Write Simple Scripts
+- Shell script does not have compiler, it is just a text file.
+- The first line of any shell script defines the shell in which it should run.  
+- **Shebang**: `#!` also called the **hashbang** or **poundbang**.
+
+| Shell Type | Description | Shebang |
+| --- | --- | --- |
+| `(sh)` | Bourne shell goes back to the begining of UNIX, directory `/bin/sh` |  `#!/bin/sh` |
+| `(bash)` | Bourne again shell, `/bin/bash` | `#!/bin/bash` |
+| `(csh)`, `(ksh)`, `(tcsh)`, `(zch)` | Other type of shell |  |
+
+| Command | Description | Example |
+| --- | --- | --- |
+| `Do it` | Change mode chmod | `chmod a+x scriptName` |
+| `sh scriptName` | launches a new shell and immediately execute the script |  | 
+
+### How to write scripts
+# 
+#### Easy mode
+- The easy mode is to just use a **generic script** that simulates typing the command.
+  - Type commands into a `.txt` file
+  - In simple scripts, it is common to use complete paths so you do not ever have any relative pathing.
+  - Use the `&` at the end of a command (so you don't have to wait).
+  - If you typed in a command and went to the next row and typed another command, then the first command woud have to be complte before the second command would execute. 
+  - `demo.sh &` sends it to the background. 
+# 
+#### To use variables in script
+
+| Type | Description | Example |
+| --- | --- | --- |
+| Positional | Depend on the position of the arguement when the script goes and run. `$1`, `$2`, `$3` is the position number | `$1Do it A` `$2Do it B` `$3Do it C` |
+| Named variables |  |  |
+| `gedit` | Launch the `gedit` editor |  |
+
+
