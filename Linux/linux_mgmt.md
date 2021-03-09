@@ -121,5 +121,18 @@ Under the user `home` directory, set the user specific environment variable. The
 | Positional | Depend on the position of the arguement when the script goes and run. `$1`, `$2`, `$3` is the position number | `$1Do it A` `$2Do it B` `$3Do it C` |
 | Named variables |  |  |
 | `gedit` | Launch the `gedit` editor |  |
+| `PATH=~/scripts:$PATH` | `:` is to seperate previous directory from the next |  |
+| `chmod u+x *.sh` | Change execute command to change privilege. `u+x` means user executable |  |
+#
+#### Conditional Expressions
+
+| Statement | Description | Example |
+| --- | --- | --- |
+| `If` | If the statement is **True** commands after `Then`. If statement is **False** commands after `Else` | `if test conditionalExpression then commands else commands fi` or `if [ conditionalExpression ] then commands else commands fi` | 
+| `-f` | Test to see if file exists |  |
+| `-s` | Test to see if file exists and size > 0 |  |
+| `String 1 = String 2` | Comparing String 1 and String 2 |  |
 
 
+- If there is many expressions use `Case` statement instead. 
+|
