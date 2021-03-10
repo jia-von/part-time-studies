@@ -214,4 +214,32 @@ Notes:
 - Test for return values for success or failure or other information provided by a command
   - Most commands return negative numbers to indicate errors; negative value means some sort of error, positve value report some sort of status
 
+#
 **Callee** and **Caller** script.
+
+`democallee.sh` script
+```
+exit -1
+```
+
+`democaller.sh` script
+```
+if ! ./democallee.sh ; then
+    echo "callee.sh returned an error!"
+fi
+```
+
+#### Read input from the User
+**Read** statement to get/prompt data.
+```
+echo "Enter a name: "
+read name
+
+echo "Hello, "$name"!"
+```
+
+Notes:
+- Run commands
+- Make decisions
+- Iterate over many commands 
+- Test out various statuses
